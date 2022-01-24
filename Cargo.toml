@@ -1,8 +1,26 @@
 [package]
-name = "catalyst"
-version = "0.1.0"
+name = "alloy_catalyst"
+version = "0.0.1"
+description = "A utility library for all projects in alloy"
+authors = ["Folling <coding@folling.de>"]
+repository = "https://github.com/folling/catalyst"
+license = "BSD-3-Clause"
+keywords = [
+    "utility",
+    "gui",
+    "alloy",
+]
+categories = [
+    "gui",
+    "memory-management",
+]
+readme = "README.md"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+default = []
 
 [dependencies]
+thiserror = "1.0.30"
+strum = "0.23.0"
+strum_macros = "0.23.0"
